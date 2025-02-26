@@ -1108,6 +1108,7 @@ const TeacherDashboard = () => {
           </div>
         </div>
       )}
+      
 
       {/* Chatbot Button */}
       <Button 
