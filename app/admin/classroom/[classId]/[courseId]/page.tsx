@@ -139,7 +139,7 @@ export default function CoursePage() {
             <HoverCardContent className="w-64 p-4 bg-white shadow-md rounded-lg">
               <h3 className="text-sm font-semibold">📹 Scene Details</h3>
               <p className="text-lg text-gray-900">📝 {scene.description}</p>
-              <p className="text-lm text-gray-600">⏳ Duration: {scene.duration || "N/A"}</p>
+              <p className="text-lm text-gray-600">⏳ Duration: {scene.name || "N/A"}</p>
             </HoverCardContent>
           </HoverCard>
         ))}
